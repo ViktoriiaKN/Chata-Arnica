@@ -45,6 +45,10 @@ span {
 .page-header {
   padding: 1.5rem;
   padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-secondary);
 }
 
 .logo {
@@ -71,12 +75,20 @@ span {
 .subheading {
   padding: 2.5rem 1.5rem;
   font-size: 1.5rem;
+  background-color: var(--background-primary);
 }
 
 .subheading__content {
   margin: 0 auto;
 }
 
+.intro-image {
+  background-image: url('./images/arnica-intro.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    width: 100%;
+}
 /* CENOVÁ NABÍDKA */
 
 .pricelist {
