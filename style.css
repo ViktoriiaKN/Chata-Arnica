@@ -223,7 +223,7 @@ span {
   margin-right: 0.5rem;
 }
 
-/* SEM ZAČNĚTE PSÁT SVÉ STYLY PRO MOBIL */
+/* SEM ZAČNĚTE PSÁT SVÉ STYLY PRO DESKTOP */
 
 @media (min-width: 840px) {
   /* HLAVIČKA - NAVIGACE */
@@ -258,7 +258,25 @@ span {
   .review__text {
     width: 250px;
     padding: 1.5rem;
+    background-color: var(--background-secondary);
+    z-index: 1;
+    transform: translate(60px);
+  }
+  .review__content {
+    border: none;
+  }
+  .review__photo {
+    width: 300px;
+    height: 400px;
+    background-image: url('./images/reviewer.jpg');
+    background-size: cover;
   }
 
-  /* TADY PIŠTE STYLY PRO ŠÍŘKU NAD 800PX */
+  /* FOOTER */
+
+  .footer {
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-start;
+  }
 }
