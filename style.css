@@ -264,3 +264,8 @@ span {
     align-items: flex-start;
   }
 }
+
+
+@media (min-width: 1200px) {
+
+}
