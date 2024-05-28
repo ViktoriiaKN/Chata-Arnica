@@ -70,7 +70,7 @@ span {
 
 .subheading__content {
   margin: 0 auto;
-}
+} 
 
 /* CENOVÁ NABÍDKA */
 
@@ -79,6 +79,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--background-secondary);
 }
 
 .pricelist__title {
@@ -87,11 +88,12 @@ span {
 }
 
 .pricelist__content {
-  width: 100%;
+  width: 80%;
+  max-width: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 .offer {
@@ -123,6 +125,7 @@ span {
 /* RECENZE */
 
 .review {
+  background-color: var(--background-primary);
   padding: 3.5rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -139,11 +142,13 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid var(--background-secondary);
 }
 
 .review__text {
   padding: 2rem;
   font-size: 1.3rem;
+  font-style: oblique;
 }
 
 .review__author {
@@ -156,7 +161,7 @@ span {
 .footer {
   padding: 2.5rem 1.5rem;
   font-size: 1.2rem;
-
+  background-color: var(--background-secondary);
   display: flex;
   gap: 2rem;
   flex-direction: column;
