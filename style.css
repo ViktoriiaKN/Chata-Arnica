@@ -7,11 +7,10 @@
 }
 
 :root[data-theme='dark'] {
---background-primary: #132221;
---background-secondary: #476462;
---text: #e1e1e1;
-}
-
+  --background-primary: #132221;
+  --background-secondary: #476462;
+  --text: #e1e1e1;
+  }
 /* ZÁKLADNÍ STYLY */
 
 *,
@@ -23,6 +22,7 @@ body,
   box-sizing: border-box;
   font-family: 'Alegreya Sans', sans-serif;
   color: var(--text);
+  
 }
 
 html {
@@ -55,7 +55,10 @@ span {
   justify-content: space-between;
   align-items: center;
   background-color: var(--background-secondary);
+  
 }
+
+
 
 .logo {
   font-size: 1.5rem;
