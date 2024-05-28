@@ -111,11 +111,12 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .offer {
   margin: 1rem 0 2rem 0;
+  width: 100%;
 }
 
 .offer__header {
