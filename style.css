@@ -87,9 +87,9 @@ span {
   background-image: url('./images/arnica-intro.jpg');
     background-size: cover;
     background-position: center; 
-    height: 100vw;
-    width: 100vw;
+    height: 70vh;
 }
+
 /* CENOVÁ NABÍDKA */
 
 .pricelist {
