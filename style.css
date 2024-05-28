@@ -283,5 +283,11 @@ span {
 
 
 @media (min-width: 1200px) {
+  .pricelist__content {
+    gap: 6rem;
+  }
 
+  .footer {
+    gap: 6rem;
+  }
 }
